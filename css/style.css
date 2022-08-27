@@ -58,15 +58,16 @@ span {
 .header {
     position: static;
     width: 100%;
-    height: 17.25rem;
+    height: 15.50rem;
     border-radius: 2rem 2rem 0 0;
 }
 .profile {
     display: flex;
     border-radius: 7rem;
-    max-width: 8rem;
+    max-width: 20rem;
     border-color: white;
     border-style: solid;
+    border-width: .6rem;
     margin-top: -4rem;
 
 
@@ -91,7 +92,7 @@ span {
 .foot {
     color: var(--Darkgrayish-blue);
     margin-top: -1rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     opacity: 0.7;
     font-size: 1.5rem;
 }
