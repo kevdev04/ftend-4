@@ -45,8 +45,6 @@ span {
 .flex {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    max-height: 9rem;
-    row-gap: -30rem;
 }
 /* container */
 .container {
