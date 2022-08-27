@@ -43,16 +43,16 @@ span {
     color:var(--Darkgrayish-blue);
 }
 .flex {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-height: 9rem;
+    row-gap: -30rem;
 }
 /* container */
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:flex-end;
+    align-items:stretch;
     flex-direction: column;
     background-color: white;
     width: 38rem;
@@ -70,7 +70,7 @@ span {
     border-bottom: 1px solid var(--Dark-gray);
     opacity: 0.4;
     margin-bottom: 1rem;
-    width: 30rem;
+    width: 38rem;
 }
 .tw-700 {
     font-size: 18px;
